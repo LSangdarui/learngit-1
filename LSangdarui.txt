@@ -1,0 +1,8 @@
+我是刚走出校园的实习生,对于现在的岗位技能还有很多没有掌握,出了学校才知道社会更需要不断学习提高技能的人,接下来,是我的部分笔记
+Git仓库和GitHub仓库之间的传输是通过SSH加密的,所以需要设置密钥：
+1）创建sshkey
+$ ssh-keygen -t rsa -C "youremail@example.com"
+2)登陆GitHub，打开“Account settings”，“SSH Keys”页面
+3)添加远程库
+4）git add origin git@github.com:LSangdarui/learngit.git
+5)git push -u origin master
